@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" style="min-width:400px;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CF Handler</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body class="container">
+    <div class="header">
+        <h1>Codeforces Handler</h1>
+    </div>
+    <div class="color2">
+        <label for="handle_options">Codeforces handle:</label>
+        <input type="text" id="handle_options" name="handles" placeholder="Eg.- aldifferento">
+        <input type="submit" id="handle_selected" value="Submit">
+        <br><br><p id="show_handle"></p>
+    </div>
+    <div class="color1">
+        <h3> Upcoming Codeforces Contest </h3>
+        <div id="recentContestLink"></div>
+        <h3 id="time_left"></h3>
+    </div>
+    <div class="color2">
+        <label for="goal">Set today's target:</label>
+        <select id="goal" name="goal">
+            <option value="2">2</option>
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="20">20</option>
+        </select>
+        <input type="submit" id="goal_selected" value="Submit">
+        <br>
+        <b><label id="label" for="bar"></label></b><br>
+        <progress id="bar" max="100"></progress>
+        <h3 id="num_solved"></h3>
+    </div>
+    <script src="jquery-3.6.0.min.js"></script>
+    <div class="color1">
+        <h3>Last few Wrong Verdict Submissions:</h3>
+        <div id="WA_probs"></div>
+    </div>
+    <div class="color2">
+        <h3>Recommended Problems</h3>
+        <label for="diff">Choose the difficulty:</label>
+        <select id="diff" name="levels">
+            <option value="Warmup">Warmup</option>
+            <option value="Easy">Easy</option>
+            <option value="Medium">Medium</option>
+            <option value="Hard">Hard</option>
+            <option value="Daily_Practice">Daily practice</option>
+            <option value="Weak_Topics">Weak topics</option>
+        </select>
+        <input type="submit" id="diff_selected" value="Submit">
+        <br />
+        <div id="Recommended_Probs"></div>
+    </div>
+    <div class="footer-controls">
+        <div class="dark-control">Dark mode: off</div>
+    </div>
+    <script type="text/javascript" src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "name": "CF Handler",
+  "description": "Build an extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/laptop16.png",
+      "32": "/images/laptop32.png",
+      "48": "/images/laptop48.png",
+      "128": "/images/laptop128.png"
+    }
+  },
+  "permissions": [
+    "storage"
+  ],
+  "icons": {
+    "16": "/images/laptop16.png",
+    "32": "/images/laptop32.png",
+    "48": "/images/laptop48.png",
+    "128": "/images/laptop128.png"
+  }
+}
+

@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+* {
+  margin: 0;
+}
+
+.header {
+  padding: 3%;
+  text-align: center;
+  background-color: whitesmoke;
+  color: blue;
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+}
+
+p{
+  font-size: medium;
+}
+
+label{
+  font-size: larger;
+}
+
+a{
+  font-size: larger;
+}
+
+.dark-mode {
+  background: #333;
+  color: #fff !important;
+}
+
+.dark-control {
+  text-align: right;
+  color: #666;
+  text-decoration: underline;
+  font-size: 10px;
+  cursor: pointer;
+  padding: 18px 0px 0px 0px;
+  margin-left: auto;
+}
+
+.dark-mode .dark-control {
+  color: #fafafa;
+}
+
+.footer-controls {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dark-mode {
+  color: #fafafa;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.color2 {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-color: lightblue;
+}
+
+.color1 {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-color: whitesmoke;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: red;
+}
