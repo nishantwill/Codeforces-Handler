@@ -1,34 +1,25 @@
-# Codeforces-Handler
-## About The Project
->This is the Chrome Extension to effectively use codeforces website with features listed:
-
-<li>Upcoming contest link, cf progress tracker for everyday target number of problems with respect to the user's account/handle. </li>
-<li>Last 5 Wrong Verdict Submissions, Recommended problems of varied difficulties like Weak Topics, Daily Practice, Easy, Medium etc.</li>
+# Codeforces-Handler :
+> A chrome extension that helps users to effectively use the Codeforces website with features like 
+<li>upcoming contest reminder, Codeforces specific to-do list service, last 5 unsolved problems, recommended problems of varying difficulties.</li>
 <li>Dark Mode feature added for ensuring better user experience.</li>
 
-## Built With
-### Frontend
+## Built With : 
+### Frontend :
 <li>HTML</li>
 <li>CSS</li>
 
-### Backend
+### Backend :
 <li>JavaScript</li>
-<li>JQuery- JS library</li>
 
-### Utilities
-<li>Web Scraping in NodeJs (XML Scripting)</li>
+### Utilities :
 <li>Codeforces API</li>
 
-## Prerequisites
+## Prerequisites :
 1. Javascript
 2. Basic HTML,CSS 
-3. Web Scraping
-4. Chrome Extension Basics
+3. Chrome Extension Basics
 
 ## Usage
-> Will be hosted shortly till then
 ```
 Clone this git repo and on chrome://extensions, upload the code files as Load Unpacked.
 ```
-
-Further Contributions/Suggestions are welcome.
